@@ -8,10 +8,10 @@ const Resume = () => {
         My Resume
       </Heading>
       <Text mb={4}>
-        You can see my resume in PDF format by clicking the link below:
+        You can download my resume in PDF format by clicking the link below:
       </Text>
       <Link href="/resume.pdf" download>
-        View Resume
+        Download Resume
       </Link>
     </Box>
   );
