@@ -1,7 +1,7 @@
 // Resume.js
 import React from 'react';
 
-const Resume = () => {
+const mycv = () => {
   return (
     <section>
       <h2>Resume</h2>
@@ -10,4 +10,4 @@ const Resume = () => {
   );
 };
 
-export default Resume;
+export default mycv;

@@ -5,7 +5,7 @@ import Header from './Header';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import Contact from './Contact';
-import Resume from './Resume';
+import mycv from './mycv';
 import Footer from './Footer';
 
 const ScrollToTop = () => {
@@ -27,7 +27,7 @@ const App = () => {
         <Route exact path="/" component={AboutMe} />
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-        <Route path="/resume" component={Resume} />
+        <Route path="/resume" component={mycv} />
       </Switch>
       <Footer />
     </Router>
